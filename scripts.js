@@ -33,11 +33,8 @@ const buttonConversor = ()=> {
 
 }
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> d0f74d5d877eb769490dd6f66b9cc2a30d77ffa4
 if (select.value=== 'Bitcoin'){ 
     fluidChange.innerHTML = new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -45,20 +42,10 @@ if (select.value=== 'Bitcoin'){
 }).format( inputReal / bit)
 }
 
-<<<<<<< HEAD
 
 
 }
 
-
-
-
-
- 
-=======
-}
-
->>>>>>> d0f74d5d877eb769490dd6f66b9cc2a30d77ffa4
 selectChange = ()=> {
     const inputReal = document.getElementById("currency-Input").value
 
@@ -109,21 +96,8 @@ if (select.value=== 'Bitcoin'){
 }).format( inputReal / bit)
 }
 
-<<<<<<< HEAD
- 
 }
-
-
-
-
-
 
 
 select.addEventListener('change', selectChange)
 button.addEventListener('click', buttonConversor)
-=======
-}
-
-select.addEventListener('change', selectChange)
-button.addEventListener('click', buttonConversor)
->>>>>>> d0f74d5d877eb769490dd6f66b9cc2a30d77ffa4
