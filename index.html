@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money conversor </title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+             <h1>Code Club Convert Money</h1>
+
+        </header>
+
+        <main>
+            <label>
+                Converter <b>de</b>
+                <select>
+                    <option>
+                        R$ Real brasileiro
+                    </option>
+                </select>
+            </label>
+
+
+            <label>
+                Converter <b>para</b>
+                <select id="fluid-sellect">
+                    <option>
+                        (USD) Dolar americano
+                    </option>
+                    <option>
+                        (€) Euro
+                    </option>
+                    <option>
+                         Bitcoin
+                    </option>
+
+                </select>
+            </label>
+
+
+            <label>
+            <b>Valor</b>
+                <input type="number" id="currency-Input" placeholder="R$ 10.000.00">
+            </label>
+
+            <button id="button-conversor">Converter</button>
+
+            <section>
+                <div class="container-currency">
+                    <img  src="./assets/brasil 2.png" alt="Bandeira do Brasil">
+                    <p class="name-currency"> Real (R$) </p>
+                    <p id="real-value" class="value-currency"> R$ 10.000.00</p>
+                </div>
+
+
+                <img src="./assets/Vector.png" alt="Seta" class="Seta">
+
+
+                <div class="container-currency">
+                    <img src="./assets/estados-unidos (1) 1.png" id="flag-currency" alt="Bandeira país conversão">
+                    <p id="name-currency" class="name-currency" > Dólar (USD) </p>
+                    <p id="fluid-value" class="value-currency"> u$ 2.000.00</p>
+                </div>
+            </section>
+
+
+
+
+        </main>
+
+
+
+
+    </div>
+</body>
+<script src="./scripts.js"></script>
+</html>
