@@ -61,6 +61,12 @@ if(select.value ==='(€) Euro' ){
     
    if(select.value ==='(€) Euro' ) {
        changeFlag.src = "./assets/euro.png"} 
+
+       if(select.value ==='(USD) Dolar americano' ){
+        nameChange.innerHTML = "(USD) Dolar americano"} 
+        
+       if(select.value ==='(USD) Dolar americano' ) {
+           changeFlag.src = "./assets/estados-unidos (1) 1.png"}
        
 
 
